@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+/* <main class="flex flex-col justify-center content-center">
+        <!-- Heading -->
+        <h1 class="font-['Righteous'] m-8 text-5xl text-center">Pomodoro Timer</h1>
+        <!-- Timer -->
+        <div id="timer" class="w-auto mx-auto">
+            <!-- Focus Time -->
+            <div id="focusTime">
+                <p class="timerText text-3xl">Focus Session</p>
+                <button class="timerDec text-2xl border-2">-</button>
+                <p class="duration text-2xl">25</p>
+                <button class="timerInc text-2xl border-2">+</button>
+            </div>
+            <!-- Break Time -->
+            <div id="breakTime">
+                <p class="timerText text-3xl">Break Session</p>
+                <button class="timerDec text-2xl border-2">-</button>
+                <p class="duration text-2xl">5</p>
+                <button class="timerInc text-2xl border-2">+</button>
+            </div>
+        </div>
+        <!-- Buttons -->
+        <div id="buttons">
+            <!-- Reset -->
+            <button></button>
+            <!-- Start/Pause/Resume -->
+            <button></button>
+        </div>
+    </main> */
