@@ -12,7 +12,7 @@ module.exports = {
       Audiowide: ['Audiowide'],
     },
     hover: {
-      'default': 'rgb(255 255 255)',
+      default: 'rgb(255 255 255)',
     },
     extend: {},
   },
