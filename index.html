@@ -12,34 +12,34 @@
 
 <body>
     <main class="h-screen p-8 flex flex-wrap justify-center items-center text-center">
-        <div class="grid grid-cols-auto grid-rows-auto gap-y-8 md:grid md:grid-rows-auto md:grid-cols-3 md:self-start md:gap-y-20">
+        <div class="grid grid-cols-auto grid-rows-auto gap-y-8 sm:grid sm:grid-rows-auto sm:grid-cols-3 sm:self-start sm:gap-y-20">
             <!-- Heading -->
-            <div class="text-7xl row-span-1 col-span-1 flex items-center justify-center md:row-span-1 md:col-span-3 md:text-8xl">
+            <div class="text-7xl row-span-1 col-span-1 flex items-center justify-center sm:row-span-1 sm:col-span-3 sm:text-8xl">
                 <h1 class="my-auto text-purple-950 font-Righteous">Pomodoro Timer</h1>
             </div>
             <!-- Timer -->
-            <div class="py-2 row-span-2 grid grid-cols-3 grid-rows-auto justify-items-center gap-8 text-purple-950 font-Righteous md:row-span-1 md:col-span-1">
+            <div class="py-2 row-span-2 grid grid-cols-3 grid-rows-auto justify-items-center gap-8 text-purple-950 font-Righteous sm:row-span-1 sm:col-span-1">
                 <!-- Focus Timer -->
                 <div class="col-start-2 row-start-1 grid grid-cols-auto grid-rows-auto gap-y-1 gap-x-4 items-center">
-                    <p class="col-span-3 text-4xl md:self-end">Focus Time</p>
-                    <button type="button" id="minus" class="h-10 w-10 justify-self-end text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 md:self-start">-</button>
-                    <div class="text-2xl flex items-center justify-center md:self-start">25</div>
-                    <button type="button" id="plus" class="h-10 w-10 justify-self-start text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 md:self-start">+</button>
+                    <p class="col-span-3 text-4xl sm:self-end">Focus Time</p>
+                    <button type="button" id="minus" class="h-10 w-10 justify-self-end text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 sm:self-start">-</button>
+                    <div class="text-2xl flex items-center justify-center sm:self-start">25</div>
+                    <button type="button" id="plus" class="h-10 w-10 justify-self-start text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 sm:self-start">+</button>
                 </div>
                 <!-- Break Timer -->
                 <div class="col-start-2 row-start-2 grid grid-cols-auto grid-rows-auto gap-y-1 gap-x-4 items-center">
-                    <p class="col-span-3 text-4xl md:self-end">Break Time</p>
-                    <button type="button" id="minus" class="h-10 w-10 justify-self-end text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 md:self-start">-</button>
-                    <div class="text-2xl flex items-center justify-center md:self-start">5</div>
-                    <button type="button" id="plus" class="h-10 w-10 justify-self-start text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 md:self-start">+</button>
+                    <p class="col-span-3 text-4xl sm:self-end">Break Time</p>
+                    <button type="button" id="minus" class="h-10 w-10 justify-self-end text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 sm:self-start">-</button>
+                    <div class="text-2xl flex items-center justify-center sm:self-start">5</div>
+                    <button type="button" id="plus" class="h-10 w-10 justify-self-start text-2xl border-2 border-purple-950/50 hover:bg-purple-950/30 hover:text-white active:bg-purple-950/50 sm:self-start">+</button>
                 </div>
             </div>
             <!-- Buttons -->
-            <div class="px-8 py-2 row-span-1 grid grid-cols-2 gap-x-8 font-Righteous md:row-start-2 md:col-start-3 md:row-end-3 md:col-end-4 md:flex md:flex-col md:flex-wrap md:items-center justify-center md:gap-8">
+            <div class="px-8 py-2 row-span-1 grid grid-cols-2 gap-x-8 font-Righteous sm:row-start-2 sm:col-start-3 sm:row-end-3 sm:col-end-4 sm:flex sm:flex-col sm:flex-wrap sm:items-center justify-center sm:gap-8">
                 <button type="button" id="start"
-                    class="col-start-1 w-11/12 justify-self-end border-2 rounded-full py-2 text-white bg-purple-950 grayShadow hover:bg-purple-900 active:bg-purple-800 focus:ring focus:ring-black md:w-7/12">Start</button>
+                    class="col-start-1 w-11/12 justify-self-end border-2 rounded-full py-2 text-white bg-purple-950 grayShadow hover:bg-purple-900 active:bg-purple-800 focus:ring focus:ring-black sm:w-7/12">Start</button>
                 <button type="button" id="reset"
-                    class="col-start-2 w-11/12 justify-self-start border-2 rounded-full py-2 text-white bg-purple-950 grayShadow hover:bg-purple-900 active:bg-purple-800 focus:ring focus:ring-black md:w-7/12">Reset</button>
+                    class="col-start-2 w-11/12 justify-self-start border-2 rounded-full py-2 text-white bg-purple-950 grayShadow hover:bg-purple-900 active:bg-purple-800 focus:ring focus:ring-black sm:w-7/12">Reset</button>
             </div>
             <!-- Clock -->
             <div class="clockOuterShadow">
@@ -51,7 +51,7 @@
                 </div>
             </div>
             <!-- Music -->
-            <div class="row-span-2 flex justify-center flex-wrap items-center mb-8 md:row-start-3 md:col-start-1 md:row-end-4 md:col-end-4">
+            <div class="row-span-2 flex justify-center flex-wrap items-center mb-8 sm:row-start-3 sm:col-start-1 sm:row-end-4 sm:col-end-4">
                 <audio controls class="w-11/12">
                     <source src="25minuteMusic.mp3" type="audio/mpeg">
                 </audio>
