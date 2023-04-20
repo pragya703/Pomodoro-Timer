@@ -18,10 +18,14 @@
 
     .clockOuterShadow {
         box-shadow: 6px 6px 10px -1px rgb(0 0 0/0.5);
+        width: 20rem;
+        height: 20rem;
     }
 
     .clockInnerShadow {
         box-shadow: inset 4px 4px 10px -1px rgb(0 0 0/0.5);
     }
-
+    .clockValue {
+        font-size: 4rem;
+    }
 }
