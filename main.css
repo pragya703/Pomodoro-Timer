@@ -1,3 +1,27 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&family=Righteous&display=swap');
+
+@layer components {
+    .font-Audiowide {
+        font-family: 'Audiowide';
+    }
+
+    .font-Righteous {
+        font-family: 'Righteous';
+    }
+
+    .grayShadow {
+        box-shadow: -5px 10px 10px gray;
+    }
+
+    .clockOuterShadow {
+        box-shadow: 6px 6px 10px -1px rgb(0 0 0/0.5);
+    }
+
+    .clockInnerShadow {
+        box-shadow: inset 4px 4px 10px -1px rgb(0 0 0/0.5);
+    }
+
+}
