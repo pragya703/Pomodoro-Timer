@@ -17,13 +17,16 @@
     }
 
     .clockOuterShadow {
-        box-shadow: 6px 6px 10px -1px rgb(0 0 0/0.5);
+        box-shadow: 6px 6px 10px -1px rgb(0 0 0/0.2);
         width: 20rem;
         height: 20rem;
+        justify-self: center;
+        padding: 2rem;
+        border-radius: 50%;
     }
 
     .clockInnerShadow {
-        box-shadow: inset 4px 4px 10px -1px rgb(0 0 0/0.5);
+        box-shadow: inset 4px 4px 10px -1px rgb(0 0 0/0.2);
     }
     .clockValue {
         font-size: 4rem;
